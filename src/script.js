@@ -11,6 +11,8 @@ function multiplesTable(base) {
 if (base && !isNaN(base)) {
     multiplesTable(base);
 } else {
+
+    
     // Opcion #1
     /********** */
     throw new Error("Argument 'base' not defined");
@@ -19,6 +21,8 @@ if (base && !isNaN(base)) {
     /********** */
     /* console.error("Argument 'base' not defined");
     return; */
+
+
 }
 
 module.exports = {
